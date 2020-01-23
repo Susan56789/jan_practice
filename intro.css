@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    text-shadow: antiquewhite;
+    text-orientation: sideways;
+    font-style: unset;
+    font-size: larger;
+}
+
+body {
+    background-color: lightsteelblue;
+    color: rgb(29, 5, 5);
+    text-align: left;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+/*Add background color to the top navigation*/
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+/*style the links inside the navigation bar*/
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+
+/*Add color to the current/active link*/
+
+.topnav a.active {
+    background-color: greenyellow;
+    color: aliceblue;
+}
+
+
+/*style the header logo*/
+
+.header img {
+    float: left;
+}
